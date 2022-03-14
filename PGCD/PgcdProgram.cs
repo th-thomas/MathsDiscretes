@@ -1,13 +1,12 @@
 ﻿using PgcdLibrary;
 
-namespace PGCD
+namespace PGCD;
+
+public class PgcdProgram
 {
-    public class PgcdProgram
+    public static void Main(string[] args)
     {
-        public static void Main(string[] args)
-        {
-            var pgcdComparer = new PgcdComparer(new PgcdEuclide(), new PgcdNaive());
-            pgcdComparer.CompareNew();
-        }
+        var pgcdComparer = new PgcdComparer(new PgcdEuclide(), new PgcdNaive());
+        pgcdComparer.CompareNew();
     }
 }

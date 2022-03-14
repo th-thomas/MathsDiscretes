@@ -1,20 +1,19 @@
 ﻿using System;
 
-namespace PgcdLibrary
+namespace PgcdLibrary;
+
+public class PgcdNaive : IPgcd
 {
-    public class PgcdNaive : IPgcd
+    public ulong GetPgcd(ulong a, ulong b)
     {
-        public ulong GetPgcd(ulong a, ulong b)
+        ulong pgcd = 1;
+        for (ulong i = 2; i < (Math.Min(a, b) + 1); i++)
         {
-            ulong pgcd = 1;
-            for (ulong i = 2; i < (Math.Min(a, b) + 1); i++)
+            if ((a % i == 0) && (b % i == 0))
             {
-                if ((a % i == 0) && (b % i == 0))
-                {
-                    pgcd = i;
-                }
+                pgcd = i;
             }
-            return pgcd;
         }
+        return pgcd;
     }
 }
