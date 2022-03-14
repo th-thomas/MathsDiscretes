@@ -4,7 +4,7 @@ namespace PgcdLibrary;
 
 public class PgcdNaive : IPgcd
 {
-    public ulong GetPgcd(ulong a, ulong b)
+    public ulong GetResult(ulong a, ulong b)
     {
         ulong pgcd = 1;
         for (ulong i = 2; i < (Math.Min(a, b) + 1); i++)

@@ -2,8 +2,8 @@
 
 public class PgcdEuclide : IPgcd
 {
-    public ulong GetPgcd(ulong a, ulong b)
+    public ulong GetResult(ulong a, ulong b)
     {
-        return b == 0 ? a : GetPgcd(b, a % b);
+        return b == 0 ? a : GetResult(b, a % b);
     }
 }

@@ -7,8 +7,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\AlgorithmComparer\Algorithm.csproj" />
+    <ProjectReference Include="..\AlgorithmLibrary\AlgorithmLibrary.csproj" />
     <ProjectReference Include="..\PgcdLibrary\PgcdLibrary.csproj" />
+    <ProjectReference Include="..\PuissanceLibrary\PuissanceLibrary.csproj" />
   </ItemGroup>
 
 </Project>

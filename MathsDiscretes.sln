@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31515.178
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32228.430
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PgcdCLI", "PGCD\PgcdCLI.csproj", "{7CBE11D7-6C19-45ED-90EB-F9DC283F8E45}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PgcdLibrary", "PgcdLibrary\PgcdLibrary.csproj", "{A8396F0B-F010-4A18-A70F-DAD9076BC0B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PgcdLibrary", "PgcdLibrary\PgcdLibrary.csproj", "{A8396F0B-F010-4A18-A70F-DAD9076BC0B8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PuissanceLibrary", "PuissanceLibrary\PuissanceLibrary.csproj", "{F9D6303C-963A-4DC1-9987-52EB5BD03257}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Algorithm", "AlgorithmComparer\Algorithm.csproj", "{EE8C2655-89F2-4E32-B645-649D1D826543}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlgorithmLibrary", "AlgorithmLibrary\AlgorithmLibrary.csproj", "{0D6BD524-5FF9-48B0-BFD4-028D1C2B4BBF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cli", "Cli\Cli.csproj", "{3117B899-8761-4A31-A05A-D7D59630F389}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,18 +17,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7CBE11D7-6C19-45ED-90EB-F9DC283F8E45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7CBE11D7-6C19-45ED-90EB-F9DC283F8E45}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7CBE11D7-6C19-45ED-90EB-F9DC283F8E45}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7CBE11D7-6C19-45ED-90EB-F9DC283F8E45}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A8396F0B-F010-4A18-A70F-DAD9076BC0B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A8396F0B-F010-4A18-A70F-DAD9076BC0B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8396F0B-F010-4A18-A70F-DAD9076BC0B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8396F0B-F010-4A18-A70F-DAD9076BC0B8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EE8C2655-89F2-4E32-B645-649D1D826543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EE8C2655-89F2-4E32-B645-649D1D826543}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EE8C2655-89F2-4E32-B645-649D1D826543}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EE8C2655-89F2-4E32-B645-649D1D826543}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9D6303C-963A-4DC1-9987-52EB5BD03257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9D6303C-963A-4DC1-9987-52EB5BD03257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9D6303C-963A-4DC1-9987-52EB5BD03257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9D6303C-963A-4DC1-9987-52EB5BD03257}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D6BD524-5FF9-48B0-BFD4-028D1C2B4BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D6BD524-5FF9-48B0-BFD4-028D1C2B4BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D6BD524-5FF9-48B0-BFD4-028D1C2B4BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D6BD524-5FF9-48B0-BFD4-028D1C2B4BBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3117B899-8761-4A31-A05A-D7D59630F389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3117B899-8761-4A31-A05A-D7D59630F389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3117B899-8761-4A31-A05A-D7D59630F389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3117B899-8761-4A31-A05A-D7D59630F389}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
